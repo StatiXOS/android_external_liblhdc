@@ -13,7 +13,6 @@ cc_prebuilt_library_shared {
     },
     apex_available: [
         "//apex_available:platform",
-        "com.android.btservices",
     ],
     strip: {
         none:true,
@@ -52,7 +51,6 @@ cc_library_shared {
     ],
     apex_available: [
         "//apex_available:platform",
-        "com.android.btservices",
     ],
     min_sdk_version: "Tiramisu",
 }
